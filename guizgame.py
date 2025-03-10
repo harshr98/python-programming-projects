@@ -23,7 +23,7 @@ if answer == "asia" or answer == "a":
     score += 1
 else: 
     score -= 1
-    print("Wront answer {name}, you lost 1 point.")
+    print(f"Wront answer {name}, you lost 1 point.")
 
 print(f"After the end of round 1, your score is {score}")
 print(f"in terms of total result by percentage, you have scored: {(score/1)*100}%")
@@ -34,12 +34,12 @@ print("A. United States B. Russia C. China D. India ")
 print(f"your current score: {score}") 
 
 answer = input("put your answer here: ").lower()
-if answer == "Russia" or answer == "B":
+if answer == "russia" or answer == "b":
     print(f"correct answer {name}!, you received 1 point!")
     score += 1
 else: 
     score -= 1
-    print("Wront answer {name}, you lost 1 point.")
+    print(f"Wront answer {name}, you lost 1 point.")
 
 print(f"After the end of round 2, your score is {score}")
 print(f"in terms of total result by percentage, you have scored: {(score/2)*100}%")
@@ -50,12 +50,12 @@ print("A. Ukraine B. Russia C. Germany D. Spain")
 print(f"your current score: {score}") 
 
 answer = input("put your answer here: ").lower()
-if answer in ["b" or "russia"]:
+if answer in "b" or answer == "russia":
     print(f"correct answer {name}!, you received 1 point!")
     score += 1
 else: 
     score -= 1
-    print("Wront answer {name}, you lost 1 point.")
+    print(f"Wront answer {name}, you lost 1 point.")
 
 print(f"After the end of round 3, your score is {score}")
 print(f"in terms of total result by percentage, you have scored: {(score/3)*100}%")
@@ -66,12 +66,12 @@ print("A. New York B. Washington DC C. Boston D. Salt lake city")
 print(f"your current score: {score}") 
 
 answer = input("put your answer here: ").lower()
-if answer in ["b" or "washington dc"]:
+if answer in "b" or answer == "washington dc":
     print(f"correct answer {name}!, you received 1 point!")
     score += 1
 else: 
     score -= 1
-    print("Wront answer {name}, you lost 1 point.")
+    print(f"Wront answer {name}, you lost 1 point.")
 
 print(f"After the end of round 4, your score is {score}")
 print(f"in terms of total result by percentage, you have scored: {(score/4)*100}%")
@@ -88,7 +88,7 @@ if answer == "c" or answer == "china":
     score += 1
 else: 
     score -= 1
-    print("Wront answer {name}, you lost 1 point.")
+    print(f"Wront answer {name}, you lost 1 point.")
 
 print(f"After the end of round 5, your score is {score}")
 print(f"in terms of total result by percentage, you have scored: {(score/5)*100}%")
@@ -104,7 +104,7 @@ if answer == "c" or answer == "pacific":
     score += 1
 else: 
     score -= 1
-    print("Wront answer {name}, you lost 1 point.")
+    print(f"Wront answer {name}, you lost 1 point.")
 
 print(f"After the end of round 6, your score is {score}")
 print(f"in terms of total result by percentage, you have scored: {(score/6)*100}%")
@@ -120,7 +120,7 @@ if answer == "d" or answer == "india":
     score += 1
 else: 
     score -= 1
-    print("Wront answer {name}, you lost 1 point.")
+    print(f"Wront answer {name}, you lost 1 point.")
 
 print(f"After the end of round 7, your score is {score}")
 print(f"in terms of total result by percentage, you have scored: {(score/7)*100}%")
